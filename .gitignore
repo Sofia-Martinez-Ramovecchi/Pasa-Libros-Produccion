@@ -1,0 +1,10 @@
+# Ignorar archivos de configuración y entornos
+.env
+.editorconfig
+
+# Ignorar directorios de IDE
+.idea/
+
+# Ignorar dependencias de Composer y Node.js
+vendor/
+node_modules/
