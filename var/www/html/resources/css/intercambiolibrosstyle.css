@@ -1,0 +1,70 @@
+body {
+    background-color: #f0f0f0; /* Beige */
+    color: #555555; /* Gris medio */
+
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(239, 236, 232, 0.73); /* Fondo negro con transparencia */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+/* Resto de tu CSS permanece igual */
+
+h1 {
+    text-align: center;
+    color: #3e3d3d;
+}
+
+.post {
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgb(227, 223, 188);
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #666666;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #4a4847;
+    background-color: white;
+}
+
+textarea.post:focus {
+    color: black; /* Gris medio */
+    background-color: white; /* Asegúrate de que el fondo sea de un color contrastante cuando el textarea está en foco */
+}
+button {
+    background-color: rgba(119, 90, 55, 0.65);
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: rgba(119, 90, 55, 0.9);
+}
+
+.violation {
+    margin-top: 10px;
+    color: #070606;
+    background-color: rgb(101, 101, 99);
+    padding: 10px;
+    border-radius: 5px;
+    font-style: italic;
+}

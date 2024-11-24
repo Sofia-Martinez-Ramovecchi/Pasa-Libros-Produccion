@@ -1,0 +1,1 @@
+create<?php /**PATH /var/www/html/resources/views/usuarios/create.blade.php ENDPATH**/ ?>
